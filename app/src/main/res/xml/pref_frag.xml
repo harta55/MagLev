@@ -1,0 +1,65 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <!--Camera Settings-->
+    <PreferenceCategory
+        android:title="@string/pref_camera_title">
+
+        <ListPreference
+            android:key="@string/pref_picture_quality_key"
+            android:summary="@string/pref_picture_quality_summary"
+            android:title="@string/pref_picture_quality_title"
+            android:defaultValue="0"/>
+
+        <ListPreference
+            android:key="@string/pref_video_quality_key"
+            android:summary="@string/pref_video_quality_summary"
+            android:title="@string/pref_video_quality_title"
+            android:defaultValue="0"/>
+
+        <ListPreference
+            android:key="@string/pref_video_format_key"
+            android:summary="@string/pref_video_format_summary"
+            android:title="@string/pref_video_format_title"
+            android:defaultValue="0"
+            android:entryValues="@array/vidFormatVals"
+            android:entries="@array/vidFormats"
+            />
+
+        <ListPreference
+            android:key="@string/pref_video_encoding_key"
+            android:summary="@string/pref_video_encoding_summary"
+            android:title="@string/pref_video_encode_title"
+            android:defaultValue="0"
+            android:entryValues="@array/vidEncodingsVals"
+            android:entries="@array/vidEncodings"
+            />
+
+        <ListPreference
+            android:key="@string/pref_audio_encoding_key"
+            android:summary="@string/pref_audio_encoding_summary"
+            android:title="@string/pref_audio_encoding_title"
+            android:defaultValue="0"
+            android:entryValues="@array/audioEncodingsVals"
+            android:entries="@array/audioEncodings"
+            />
+
+        <CheckBoxPreference
+            android:key="@string/pref_camera_startup_key"
+            android:summary="@string/pref_camera_startup_summary"
+            android:title="@string/pref_camera_startup_title"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="@string/pref_camera_button_delay"
+            android:title="Button Delay"
+            android:summary="Adjust camera button delay"
+            android:dialogTitle="Enter delay time in seconds"
+            android:inputType="number"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

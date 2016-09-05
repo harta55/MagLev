@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vidFormats">
+        <item>DEFAULT</item>
+        <item>AAC_ADTS</item>
+        <item>AMR_NB</item>
+        <item>AMR_WB</item>
+        <item>MPEG_4</item>
+        <item>RAW_AMR</item>
+        <item>THREE_GPP</item>
+        <item>WEBM</item>
+    </string-array>
+
+    <string-array name="vidFormatVals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="vidEncodings">
+        <item>DEFAULT</item>
+        <item>H263</item>
+        <item>H264</item>
+        <item>MPEG_4_SP</item>
+        <item>VP8</item>
+    </string-array>
+
+    <string-array name="vidEncodingsVals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="audioEncodings">
+        <item>DEFAULT</item>
+        <item>AAC</item>
+        <item>AAC_ELD</item>
+        <item>AMR_NB</item>
+        <item>AMR_WB</item>
+        <item>HE_AAC</item>
+        <item>VORBIS</item>
+    </string-array>
+
+    <string-array name="audioEncodingsVals">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+</resources>
