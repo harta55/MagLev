@@ -1,2 +1,4 @@
 # MagLev
-This Android application is the merged version of both apps developed for use and published in a research article concerning particle separation using magnetic levitation techniques
+This Android application is the merged final version of the Magnetic Levitation Android application developed and ultimately published in "Smart-phone attachable, flow-assisted magnetic focusing device". 
+
+This application is responsible for controlling a motor through BLE technology, imaging magnetically separted particles, and processing these images through OpenCV libraries
